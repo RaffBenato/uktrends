@@ -226,3 +226,62 @@ p {
   letter-spacing: 4px;
   border: 3px solid #064988;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    min-height: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .main {
+    width: 80%;
+    margin: auto;
+  }
+  .logo {
+    width: 80%;
+  }
+
+  .h2 {
+    font-size: 1.2px;
+  }
+
+  .story {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .storyimg {
+    max-width: 90%;
+    object-fit: cover;
+    padding: 10px 0;
+  }
+
+  .storypanel {
+    max-width: 90%;
+  }
+
+  .storytitle {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  .storymain {
+    text-align: center;
+    line-height: 1.1;
+    padding: 0;
+  }
+}
