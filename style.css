@@ -152,13 +152,13 @@ p {
   width: 80%;
   margin: auto;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .imgin {
   width: 60%;
   margin-right: 20px;
   margin-bottom: 20px;
-
   float: left;
 }
 
@@ -170,70 +170,46 @@ p {
 
 .pin {
   text-align: justify;
+  margin-top: 10px;
 }
 
-.links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  min-height: 200px;
-  margin: auto;
+.productimg {
+  width: 20%;
+  float: left;
+  margin: 10px;
+  box-shadow: 2px 2px 5px 1px #ffffff;
 }
 
-.link {
-  border: #064988 1px solid;
-  width: 32%;
-  height: 100%;
-  padding: 10px;
+.imgright {
+  float: right;
+}
+.producth2 {
+  text-align: left;
+}
+
+.shoplink {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  padding: 2px 8px;
+  display: inline;
+  font-weight: bold;
+}
+
+.shoplink:hover {
+  font-family: "Roboto", sans-serif;
+  color: #064988;
+  text-decoration: none;
   background-color: whitesmoke;
 }
 
-.linkimg {
-  width: 30%;
-  margin: 5px;
-  float: left;
-}
-
-.linkh1 {
-  color: #064988;
-}
-
-.linkp {
-  color: #064988;
-  text-align: justify;
-}
-
-.btnshop {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #064988;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
-  border: 3px solid #064988;
-
-  padding: 4px 8px;
-  position: relative;
-  transition: all 0.5s;
-  margin-bottom: 10px;
-}
-
-.btnshop:hover {
-  font-weight: 700;
-  letter-spacing: 4px;
-  border: 3px solid #064988;
-}
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
   .container {
     width: 95%;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .container {
     width: 100%;
   }
@@ -284,5 +260,49 @@ p {
     text-align: center;
     line-height: 1.1;
     padding: 0;
+  }
+
+  .headerin {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .logolink {
+    width: 95%;
+  }
+
+  .logopanel {
+    display: none;
+  }
+
+  .imgin {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin: auto;
+    float: none;
+  }
+
+  .h2in {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .pin {
+    text-align: left;
+  }
+
+  .productimg {
+    width: 30%;
+    float: left;
+    margin: 5px;
+    box-shadow: 2px 2px 5px 1px #ffffff;
+  }
+
+  .imgright {
+    float: right;
+  }
+  .producth2 {
+    text-align: left;
   }
 }
