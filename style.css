@@ -202,12 +202,28 @@ p {
   background-color: whitesmoke;
 }
 
+.gap {
+  height: 50px;
+}
+
 footer {
   margin: auto;
-  margin-top: 200px;
+  margin-top: 50px;
   padding-bottom: 50px;
   color: white;
   font-family: monospace;
+}
+
+.footerin {
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: monospace;
+}
+
+.bannersml {
+  display: none;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -311,5 +327,12 @@ footer {
   }
   .producth2 {
     text-align: left;
+  }
+
+  .bannerlrg {
+    display: none;
+  }
+  .bannersml {
+    display: inline;
   }
 }
