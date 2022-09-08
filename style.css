@@ -14,7 +14,6 @@ body {
 .container {
   width: 70%;
   margin: 5px auto;
-  padding-bottom: 50px;
   min-height: 100vh;
   background-color: #064988;
   color: whitesmoke;
@@ -72,7 +71,8 @@ body {
 
 .main {
   text-align: center;
-  margin: 50px 100px;
+  margin: 0px 100px;
+  margin-bottom: 0px;
 }
 
 p {
@@ -201,6 +201,14 @@ p {
   color: #064988;
   text-decoration: none;
   background-color: whitesmoke;
+}
+
+footer {
+  margin: auto;
+  margin-top: 200px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: monospace;
 }
 
 @media only screen and (max-width: 1300px) {
