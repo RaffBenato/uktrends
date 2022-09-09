@@ -107,7 +107,6 @@ p {
 
 .storytitle {
   font-family: serif;
-
   font-size: 2rem;
   font-weight: bold;
   width: 100%;
@@ -116,11 +115,20 @@ p {
   padding-top: 10px;
 }
 
+.storyline {
+  width: 95%;
+  border-top: whitesmoke 1px solid;
+  border-bottom: whitesmoke 1px solid;
+  padding: 3px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
 .storymain {
   font-size: 1.2rem;
   text-align: justify;
   padding: 20px;
-  max-height: 200px;
+  max-height: 150px;
   overflow: hidden;
   margin-bottom: 20px;
   line-height: 1.3;
@@ -280,7 +288,7 @@ footer {
     text-align: center;
     padding-left: 0;
     padding-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   .storymain {
