@@ -81,7 +81,7 @@ p {
 }
 
 .story {
-  margin-top: 100px;
+  margin-top: 80px;
   border: 2px white solid;
   display: flex;
   justify-content: center;
@@ -281,6 +281,7 @@ footer {
 
   .storymain {
     text-align: center;
+    max-height: 130px;
     line-height: 1.1;
     padding: 0;
   }
