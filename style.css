@@ -222,6 +222,10 @@ footer {
   font-family: monospace;
 }
 
+.privacylink {
+  color: whitesmoke;
+}
+
 .bannersml {
   display: none;
 }
